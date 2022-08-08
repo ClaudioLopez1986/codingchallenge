@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.layover{
+  width: 860px;
+  height: 620px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.logo{
+  width: 150px;
+  margin-left: 40%;
+  margin-top: 8%;
+}
+  .logo_text{
+    font-size: 25px;
+    color: #00dd00;
+    text-align: center;
+  }
+
+  nav{
+    background-color: #00dd00;
+    padding: 10px;
+    height: 40px;
+
+  }
+
+.button_bar{
+  width: 400px;
+  margin-left: 32%;
+}
+main{
+  height: 900px;
+  display: inline-block;
+}
+  .blocco_monopattino{
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    height: 100px;  
+  }
+
+  h3{
+    display: inline-block;
+  }
+
+  .distanza{
+    display: block;
+  }
+
+  .barra_di_ricarica_arancio{
+    width: 300px;
+    height: 20px;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+  }
+
+  .barra_di_ricarica_verde{
+    width: 400px;
+    height: 20px;
+    background-color: #00dd00;
+    border-color: #00dd00;
+    border-radius: 5px;
+  }
+
+  .barra_di_ricarica_rossa{
+    width: 80px;
+    height: 20px;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+  }
