@@ -1,0 +1,80 @@
+body{
+background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.Container{
+width: 860px;
+height: 600px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+margin: auto;
+padding: 80px;
+
+}
+
+.mini_contenitore{
+  width: 650px;
+  height: 400px;
+  margin: auto;
+}
+
+.logo{
+  width: 185px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+h1{
+  color: #00dd00;
+  font-size: 25px;
+  text-align: center;
+}
+
+.barra_di_navigazione{
+  height: 40px;
+  width: 680px;
+  background-color: #00dd00;
+  position: relative;
+}
+
+.tasti{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.monopattino{
+  color:white;
+  line-height: 5px;
+  margin:auto;
+  margin-top: 20px;
+}
+
+span{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.ricarica_1{
+  height: 30px;
+  width: 300px;
+  background-color: #f5b453;
+  border-radius: 5px;
+}
+
+.ricarica_2{
+  height: 30px;
+  width: 500px;
+  background-color: #00dd00;
+  border-radius: 5px;
+}
+
+.ricarica_3{
+  height: 30px;
+  width: 130px;
+  background-color: #be4141;
+  border-radius: 5px;
+}
